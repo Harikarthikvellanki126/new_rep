@@ -1,17 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <h1>Resume</h1>
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 30px;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin: 0;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+        }
+
+        .section ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .education ul {
+            list-style-type: square;
+        }
+
+        .work ul {
+            list-style-type: circle;
+        }
+
+        .skills ul {
+            list-style-type: none;
+        }
+
+        .skills li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    <h1>some change</h1>
-    <div>
-        <h1>email:karthik@gmail.com</h1>
-        <h2>github:<a href="https://github.com/Harikarthikvellanki126/">click here</a></h2>
+    <h1>John Doe</h1>
+    <div class="contact-info">
+        <p>Email: john.doe@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></p>
+    </div>
 
+    <div class="section education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Science in Computer Science</li>
+            <li>University of Example, 20XX</li>
+        </ul>
+    </div>
+
+    <div class="section work">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>Software Engineer</li>
+            <li>ABC Tech, 20XX - Present</li>
+            <li>Responsibilities:</li>
+            <ul>
+                <li>Developing and maintaining web applications.</li>
+                <li>Collaborating with cross-functional teams to design and implement new features.</li>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="section skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 20XX John Doe</p>
     </div>
 </body>
 </html>
